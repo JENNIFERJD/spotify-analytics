@@ -60,6 +60,31 @@ streamlit run src/app.py
 
 4. Open your browser to `http://localhost:8501`
 
+### Data Setup
+
+**Note:** The dataset files are not included in this repository for security and size reasons.
+
+To run this project:
+
+1. Download the **Spotify Music Dataset** from Kaggle:
+   - [Spotify Dataset on Kaggle](https://www.kaggle.com/datasets)
+   - You'll need: `high_popularity.csv` and `low_popularity.csv`
+
+2. Create a `data/` folder in the project root (if it doesn't exist):
+```bash
+   mkdir -p data
+```
+
+3. Place both CSV files in the `data/` folder:
+```
+   spotify-analytics/
+   └── data/
+       ├── high_popularity.csv
+       └── low_popularity.csv
+```
+
+4. Now you can run the dashboard!
+
 ## 📈 Dashboard Features
 
 ### 1. Overview
@@ -131,4 +156,4 @@ Your Name - [Your GitHub Profile]
 
 - Kaggle for providing the Spotify dataset
 - Streamlit for the amazing dashboard framework
-- Plotly for interactive visualizations
+- Plotly for interactive visualizations 
